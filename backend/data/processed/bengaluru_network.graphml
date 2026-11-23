@@ -1,0 +1,1375 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d12" for="edge" attr.name="corridor_name" attr.type="string"/>
+<key id="d11" for="edge" attr.name="corridor_id" attr.type="string"/>
+<key id="d10" for="edge" attr.name="highway" attr.type="string"/>
+<key id="d9" for="edge" attr.name="free_flow_time_s" attr.type="double"/>
+<key id="d8" for="edge" attr.name="free_flow_speed_kmh" attr.type="double"/>
+<key id="d7" for="edge" attr.name="length" attr.type="double"/>
+<key id="d6" for="edge" attr.name="length_m" attr.type="double"/>
+<key id="d5" for="edge" attr.name="edge_id" attr.type="string"/>
+<key id="d4" for="node" attr.name="label" attr.type="string"/>
+<key id="d3" for="node" attr.name="x" attr.type="double"/>
+<key id="d2" for="node" attr.name="y" attr.type="double"/>
+<key id="d1" for="node" attr.name="lon" attr.type="double"/>
+<key id="d0" for="node" attr.name="lat" attr.type="double"/>
+<graph edgedefault="directed"><node id="N_MG_ROAD">
+  <data key="d0">12.9757</data>
+  <data key="d1">77.6066</data>
+  <data key="d2">12.9757</data>
+  <data key="d3">77.6066</data>
+  <data key="d4">MG Road Metro / Trinity</data>
+</node>
+<node id="N_RICHMOND_CIRCLE">
+  <data key="d0">12.9665</data>
+  <data key="d1">77.5992</data>
+  <data key="d2">12.9665</data>
+  <data key="d3">77.5992</data>
+  <data key="d4">Richmond Circle</data>
+</node>
+<node id="N_TOWN_HALL">
+  <data key="d0">12.9638</data>
+  <data key="d1">77.5856</data>
+  <data key="d2">12.9638</data>
+  <data key="d3">77.5856</data>
+  <data key="d4">Town Hall / Hudson Circle</data>
+</node>
+<node id="N_MAJESTIC">
+  <data key="d0">12.9774</data>
+  <data key="d1">77.5713</data>
+  <data key="d2">12.9774</data>
+  <data key="d3">77.5713</data>
+  <data key="d4">Kempegowda Majestic Hub</data>
+</node>
+<node id="N_LULU_MALL">
+  <data key="d0">12.9817</data>
+  <data key="d1">77.5638</data>
+  <data key="d2">12.9817</data>
+  <data key="d3">77.5638</data>
+  <data key="d4">Lulu Mall / Rajajinagar</data>
+</node>
+<node id="N_KORAMANGALA_NEXUS">
+  <data key="d0">12.9347</data>
+  <data key="d1">77.6111</data>
+  <data key="d2">12.9347</data>
+  <data key="d3">77.6111</data>
+  <data key="d4">Nexus Mall Koramangala</data>
+</node>
+<node id="N_BASAVANAGUDI">
+  <data key="d0">12.9421</data>
+  <data key="d1">77.5681</data>
+  <data key="d2">12.9421</data>
+  <data key="d3">77.5681</data>
+  <data key="d4">Big Bull Temple Basavanagudi</data>
+</node>
+<node id="N_HALASURU">
+  <data key="d0">12.9756</data>
+  <data key="d1">77.6241</data>
+  <data key="d2">12.9756</data>
+  <data key="d3">77.6241</data>
+  <data key="d4">Someshwara Temple Halasuru</data>
+</node>
+<node id="N_JP_NAGAR">
+  <data key="d0">12.9076</data>
+  <data key="d1">77.5731</data>
+  <data key="d2">12.9076</data>
+  <data key="d3">77.5731</data>
+  <data key="d4">JP Nagar Metro Station</data>
+</node>
+<node id="N_SILK_BOARD">
+  <data key="d0">12.9175</data>
+  <data key="d1">77.6233</data>
+  <data key="d2">12.9175</data>
+  <data key="d3">77.6233</data>
+  <data key="d4">Central Silk Board Junction</data>
+</node>
+<node id="N_HSR_LAYOUT">
+  <data key="d0">12.9162</data>
+  <data key="d1">77.648</data>
+  <data key="d2">12.9162</data>
+  <data key="d3">77.648</data>
+  <data key="d4">HSR Layout Sector 1</data>
+</node>
+<node id="N_INDIRANAGAR_SV">
+  <data key="d0">12.9859</data>
+  <data key="d1">77.6451</data>
+  <data key="d2">12.9859</data>
+  <data key="d3">77.6451</data>
+  <data key="d4">Swami Vivekananda Metro</data>
+</node>
+<node id="N_CHRIST_UNIV">
+  <data key="d0">12.9362</data>
+  <data key="d1">77.6062</data>
+  <data key="d2">12.9362</data>
+  <data key="d3">77.6062</data>
+  <data key="d4">Christ University Hosur Rd</data>
+</node>
+<node id="N_BENNIGANAHALLI">
+  <data key="d0">12.9963</data>
+  <data key="d1">77.6683</data>
+  <data key="d2">12.9963</data>
+  <data key="d3">77.6683</data>
+  <data key="d4">Benniganahalli Metro</data>
+</node>
+<node id="N_TECH_VILLAGE">
+  <data key="d0">12.9322</data>
+  <data key="d1">77.6903</data>
+  <data key="d2">12.9322</data>
+  <data key="d3">77.6903</data>
+  <data key="d4">Embassy TechVillage ORR</data>
+</node>
+<node id="N_KUDLU_GATE">
+  <data key="d0">12.8901</data>
+  <data key="d1">77.6392</data>
+  <data key="d2">12.8901</data>
+  <data key="d3">77.6392</data>
+  <data key="d4">Kudlu Gate Hosur Road</data>
+</node>
+<node id="N_BIOCON">
+  <data key="d0">12.8312</data>
+  <data key="d1">77.6803</data>
+  <data key="d2">12.8312</data>
+  <data key="d3">77.6803</data>
+  <data key="d4">Biocon Campus Electronic City</data>
+</node>
+<node id="N_RR_NAGAR">
+  <data key="d0">12.9263</data>
+  <data key="d1">77.5154</data>
+  <data key="d2">12.9263</data>
+  <data key="d3">77.5154</data>
+  <data key="d4">Rajarajeshwari Nagar</data>
+</node>
+<node id="N_JP_PARK">
+  <data key="d0">13.0343</data>
+  <data key="d1">77.5508</data>
+  <data key="d2">13.0343</data>
+  <data key="d3">77.5508</data>
+  <data key="d4">JP Park Mathikere</data>
+</node>
+<node id="N_COLES_PARK">
+  <data key="d0">12.9946</data>
+  <data key="d1">77.6088</data>
+  <data key="d2">12.9946</data>
+  <data key="d3">77.6088</data>
+  <data key="d4">Coles Park Fraser Town</data>
+</node>
+<node id="N_HEBBAL">
+  <data key="d0">13.0438</data>
+  <data key="d1">77.5958</data>
+  <data key="d2">13.0438</data>
+  <data key="d3">77.5958</data>
+  <data key="d4">Hebbal Flyover Junction</data>
+</node>
+<node id="N_SMVT">
+  <data key="d0">12.9998</data>
+  <data key="d1">77.6413</data>
+  <data key="d2">12.9998</data>
+  <data key="d3">77.6413</data>
+  <data key="d4">SMVT Baiyappanahalli</data>
+</node>
+<node id="N_BROOKFIELD">
+  <data key="d0">12.9707</data>
+  <data key="d1">77.7126</data>
+  <data key="d2">12.9707</data>
+  <data key="d3">77.7126</data>
+  <data key="d4">Brookfield / Whitefield</data>
+</node>
+<node id="N_WIND_TUNNEL">
+  <data key="d0">12.9541</data>
+  <data key="d1">77.6527</data>
+  <data key="d2">12.9541</data>
+  <data key="d3">77.6527</data>
+  <data key="d4">Wind Tunnel Road / HAL</data>
+</node>
+<node id="N_KARMELARAM">
+  <data key="d0">12.9073</data>
+  <data key="d1">77.7058</data>
+  <data key="d2">12.9073</data>
+  <data key="d3">77.7058</data>
+  <data key="d4">Karmelaram Railway Station</data>
+</node>
+<node id="N_ST_FRANCIS">
+  <data key="d0">12.9249</data>
+  <data key="d1">77.6294</data>
+  <data key="d2">12.9249</data>
+  <data key="d3">77.6294</data>
+  <data key="d4">St. Francis College Koramangala</data>
+</node>
+<node id="N_NLSIU">
+  <data key="d0">12.9551</data>
+  <data key="d1">77.5173</data>
+  <data key="d2">12.9551</data>
+  <data key="d3">77.5173</data>
+  <data key="d4">NLSIU Nagarbhavi</data>
+</node>
+<node id="N_YELACHENAHALLI">
+  <data key="d0">12.8961</data>
+  <data key="d1">77.5702</data>
+  <data key="d2">12.8961</data>
+  <data key="d3">77.5702</data>
+  <data key="d4">Yelachenahalli Metro</data>
+</node>
+<node id="N_DOMLUR">
+  <data key="d0">12.961</data>
+  <data key="d1">77.6387</data>
+  <data key="d2">12.961</data>
+  <data key="d3">77.6387</data>
+  <data key="d4">Domlur Intermediate Flyover</data>
+</node>
+<node id="N_MARATHAHALLI">
+  <data key="d0">12.956</data>
+  <data key="d1">77.7011</data>
+  <data key="d2">12.956</data>
+  <data key="d3">77.7011</data>
+  <data key="d4">Marathahalli Bridge</data>
+</node>
+<node id="N_SHIVAJINAGAR">
+  <data key="d0">12.986</data>
+  <data key="d1">77.603</data>
+  <data key="d2">12.986</data>
+  <data key="d3">77.603</data>
+  <data key="d4">Shivajinagar Bus Station</data>
+</node>
+<node id="N_LALBAGH">
+  <data key="d0">12.9507</data>
+  <data key="d1">77.5848</data>
+  <data key="d2">12.9507</data>
+  <data key="d3">77.5848</data>
+  <data key="d4">Lalbagh Botanical Garden West</data>
+</node>
+<node id="N_JAYANAGAR_4TH">
+  <data key="d0">12.9298</data>
+  <data key="d1">77.5832</data>
+  <data key="d2">12.9298</data>
+  <data key="d3">77.5832</data>
+  <data key="d4">Jayanagar 4th Block</data>
+</node>
+<node id="N_DAIRY_CIRCLE">
+  <data key="d0">12.938</data>
+  <data key="d1">77.6</data>
+  <data key="d2">12.938</data>
+  <data key="d3">77.6</data>
+  <data key="d4">Dairy Circle Flyover</data>
+</node>
+<node id="N_MALLESWARAM">
+  <data key="d0">13.003</data>
+  <data key="d1">77.57</data>
+  <data key="d2">13.003</data>
+  <data key="d3">77.57</data>
+  <data key="d4">Malleswaram 8th Cross</data>
+</node>
+<node id="N_KR_PURAM">
+  <data key="d0">13.001</data>
+  <data key="d1">77.695</data>
+  <data key="d2">13.001</data>
+  <data key="d3">77.695</data>
+  <data key="d4">KR Puram Hanging Bridge</data>
+</node>
+<node id="N_CUNNINGHAM">
+  <data key="d0">12.988</data>
+  <data key="d1">77.596</data>
+  <data key="d2">12.988</data>
+  <data key="d3">77.596</data>
+  <data key="d4">Cunningham Road Junction</data>
+</node>
+<node id="N_SHOOLAY">
+  <data key="d0">12.969</data>
+  <data key="d1">77.608</data>
+  <data key="d2">12.969</data>
+  <data key="d3">77.608</data>
+  <data key="d4">Shoolay Circle / Hosur Rd Entry</data>
+</node>
+<node id="N_KORAMANGALA_100FT">
+  <data key="d0">12.934</data>
+  <data key="d1">77.625</data>
+  <data key="d2">12.934</data>
+  <data key="d3">77.625</data>
+  <data key="d4">Koramangala 100 Feet Rd</data>
+</node>
+<node id="N_AIRPORT_KIAL">
+  <data key="d0">13.1989</data>
+  <data key="d1">77.7069</data>
+  <data key="d2">13.1989</data>
+  <data key="d3">77.7069</data>
+  <data key="d4">Kempegowda Int Airport KIAL</data>
+</node>
+<edge source="N_MG_ROAD" target="N_HEBBAL">
+  <data key="d5">N_MG_ROAD-N_HEBBAL</data>
+  <data key="d6">7662.2</data>
+  <data key="d7">7662.2</data>
+  <data key="d8">57.3</data>
+  <data key="d9">481.4</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XJG4+7J|5PX4+HQ</data>
+  <data key="d12">Airport Expy</data>
+</edge>
+<edge source="N_MG_ROAD" target="N_RICHMOND_CIRCLE">
+  <data key="d5">N_MG_ROAD-N_RICHMOND_CIRCLE</data>
+  <data key="d6">1299.8</data>
+  <data key="d7">1299.8</data>
+  <data key="d8">35.0</data>
+  <data key="d9">133.69</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_MG_ROAD" target="N_HALASURU">
+  <data key="d5">N_MG_ROAD-N_HALASURU</data>
+  <data key="d6">1896.3</data>
+  <data key="d7">1896.3</data>
+  <data key="d8">40.0</data>
+  <data key="d9">170.66</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_MG_ROAD" target="N_SHIVAJINAGAR">
+  <data key="d5">N_MG_ROAD-N_SHIVAJINAGAR</data>
+  <data key="d6">1209.9</data>
+  <data key="d7">1209.9</data>
+  <data key="d8">30.0</data>
+  <data key="d9">145.19</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_MG_ROAD" target="N_SHOOLAY">
+  <data key="d5">N_MG_ROAD-N_SHOOLAY</data>
+  <data key="d6">760.3</data>
+  <data key="d7">760.3</data>
+  <data key="d8">35.0</data>
+  <data key="d9">78.2</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_RICHMOND_CIRCLE" target="N_LALBAGH">
+  <data key="d5">N_RICHMOND_CIRCLE-N_LALBAGH</data>
+  <data key="d6">2349.8</data>
+  <data key="d7">2349.8</data>
+  <data key="d8">35.0</data>
+  <data key="d9">241.69</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_RICHMOND_CIRCLE" target="N_HALASURU">
+  <data key="d5">N_RICHMOND_CIRCLE-N_HALASURU</data>
+  <data key="d6">2881.6</data>
+  <data key="d7">2881.6</data>
+  <data key="d8">31.9</data>
+  <data key="d9">325.2</data>
+  <data key="d10">primary</data>
+  <data key="d11">WHR9+R6|XJGF+6J</data>
+  <data key="d12">Central Diagonal 2</data>
+</edge>
+<edge source="N_RICHMOND_CIRCLE" target="N_MG_ROAD">
+  <data key="d5">N_RICHMOND_CIRCLE-N_MG_ROAD</data>
+  <data key="d6">1299.8</data>
+  <data key="d7">1299.8</data>
+  <data key="d8">35.0</data>
+  <data key="d9">133.69</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_RICHMOND_CIRCLE" target="N_TOWN_HALL">
+  <data key="d5">N_RICHMOND_CIRCLE-N_TOWN_HALL</data>
+  <data key="d6">1504.0</data>
+  <data key="d7">1504.0</data>
+  <data key="d8">35.0</data>
+  <data key="d9">154.69</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_TOWN_HALL" target="N_MAJESTIC">
+  <data key="d5">N_TOWN_HALL-N_MAJESTIC</data>
+  <data key="d6">2165.2</data>
+  <data key="d7">2165.2</data>
+  <data key="d8">37.4</data>
+  <data key="d9">208.41</data>
+  <data key="d10">primary</data>
+  <data key="d11">XHJ7+MG|WJM6+VC</data>
+  <data key="d12">Central Diagonal 1</data>
+</edge>
+<edge source="N_TOWN_HALL" target="N_DAIRY_CIRCLE">
+  <data key="d5">N_TOWN_HALL-N_DAIRY_CIRCLE</data>
+  <data key="d6">3265.8</data>
+  <data key="d7">3265.8</data>
+  <data key="d8">37.4</data>
+  <data key="d9">314.35</data>
+  <data key="d10">primary</data>
+  <data key="d11">XHJ7+MG|WJM6+VC</data>
+  <data key="d12">Central Diagonal 1</data>
+</edge>
+<edge source="N_TOWN_HALL" target="N_RR_NAGAR">
+  <data key="d5">N_TOWN_HALL-N_RR_NAGAR</data>
+  <data key="d6">8675.3</data>
+  <data key="d7">8675.3</data>
+  <data key="d8">37.1</data>
+  <data key="d9">841.81</data>
+  <data key="d10">primary</data>
+  <data key="d11">WGG8+G5|XH7P+G6</data>
+  <data key="d12">Mysore Road</data>
+</edge>
+<edge source="N_TOWN_HALL" target="N_RICHMOND_CIRCLE">
+  <data key="d5">N_TOWN_HALL-N_RICHMOND_CIRCLE</data>
+  <data key="d6">1504.0</data>
+  <data key="d7">1504.0</data>
+  <data key="d8">35.0</data>
+  <data key="d9">154.69</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_MAJESTIC" target="N_LULU_MALL">
+  <data key="d5">N_MAJESTIC-N_LULU_MALL</data>
+  <data key="d6">942.9</data>
+  <data key="d7">942.9</data>
+  <data key="d8">37.4</data>
+  <data key="d9">90.76</data>
+  <data key="d10">primary</data>
+  <data key="d11">XHJ7+MG|WJM6+VC</data>
+  <data key="d12">Central Diagonal 1</data>
+</edge>
+<edge source="N_MAJESTIC" target="N_TOWN_HALL">
+  <data key="d5">N_MAJESTIC-N_TOWN_HALL</data>
+  <data key="d6">2165.2</data>
+  <data key="d7">2165.2</data>
+  <data key="d8">37.4</data>
+  <data key="d9">208.41</data>
+  <data key="d10">primary</data>
+  <data key="d11">XHJ7+MG|WJM6+VC</data>
+  <data key="d12">Central Diagonal 1</data>
+</edge>
+<edge source="N_MAJESTIC" target="N_CUNNINGHAM">
+  <data key="d5">N_MAJESTIC-N_CUNNINGHAM</data>
+  <data key="d6">2924.4</data>
+  <data key="d7">2924.4</data>
+  <data key="d8">35.0</data>
+  <data key="d9">300.79</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_MAJESTIC" target="N_MALLESWARAM">
+  <data key="d5">N_MAJESTIC-N_MALLESWARAM</data>
+  <data key="d6">2850.1</data>
+  <data key="d7">2850.1</data>
+  <data key="d8">35.0</data>
+  <data key="d9">293.15</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_LULU_MALL" target="N_MAJESTIC">
+  <data key="d5">N_LULU_MALL-N_MAJESTIC</data>
+  <data key="d6">942.9</data>
+  <data key="d7">942.9</data>
+  <data key="d8">37.4</data>
+  <data key="d9">90.76</data>
+  <data key="d10">primary</data>
+  <data key="d11">XHJ7+MG|WJM6+VC</data>
+  <data key="d12">Central Diagonal 1</data>
+</edge>
+<edge source="N_KORAMANGALA_NEXUS" target="N_DAIRY_CIRCLE">
+  <data key="d5">N_KORAMANGALA_NEXUS-N_DAIRY_CIRCLE</data>
+  <data key="d6">1257.7</data>
+  <data key="d7">1257.7</data>
+  <data key="d8">37.4</data>
+  <data key="d9">121.06</data>
+  <data key="d10">primary</data>
+  <data key="d11">XHJ7+MG|WJM6+VC</data>
+  <data key="d12">Central Diagonal 1</data>
+</edge>
+<edge source="N_KORAMANGALA_NEXUS" target="N_KORAMANGALA_100FT">
+  <data key="d5">N_KORAMANGALA_NEXUS-N_KORAMANGALA_100FT</data>
+  <data key="d6">1508.4</data>
+  <data key="d7">1508.4</data>
+  <data key="d8">30.0</data>
+  <data key="d9">181.01</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_KORAMANGALA_NEXUS" target="N_SILK_BOARD">
+  <data key="d5">N_KORAMANGALA_NEXUS-N_SILK_BOARD</data>
+  <data key="d6">2325.1</data>
+  <data key="d7">2325.1</data>
+  <data key="d8">40.0</data>
+  <data key="d9">209.26</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_BASAVANAGUDI" target="N_LALBAGH">
+  <data key="d5">N_BASAVANAGUDI-N_LALBAGH</data>
+  <data key="d6">2046.9</data>
+  <data key="d7">2046.9</data>
+  <data key="d8">31.9</data>
+  <data key="d9">230.99</data>
+  <data key="d10">primary</data>
+  <data key="d11">WHR9+R6|XJGF+6J</data>
+  <data key="d12">Central Diagonal 2</data>
+</edge>
+<edge source="N_HALASURU" target="N_RICHMOND_CIRCLE">
+  <data key="d5">N_HALASURU-N_RICHMOND_CIRCLE</data>
+  <data key="d6">2881.6</data>
+  <data key="d7">2881.6</data>
+  <data key="d8">31.9</data>
+  <data key="d9">325.2</data>
+  <data key="d10">primary</data>
+  <data key="d11">WHR9+R6|XJGF+6J</data>
+  <data key="d12">Central Diagonal 2</data>
+</edge>
+<edge source="N_HALASURU" target="N_MG_ROAD">
+  <data key="d5">N_HALASURU-N_MG_ROAD</data>
+  <data key="d6">1896.3</data>
+  <data key="d7">1896.3</data>
+  <data key="d8">40.0</data>
+  <data key="d9">170.66</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_HALASURU" target="N_DOMLUR">
+  <data key="d5">N_HALASURU-N_DOMLUR</data>
+  <data key="d6">2266.8</data>
+  <data key="d7">2266.8</data>
+  <data key="d8">40.0</data>
+  <data key="d9">204.01</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_HALASURU" target="N_INDIRANAGAR_SV">
+  <data key="d5">N_HALASURU-N_INDIRANAGAR_SV</data>
+  <data key="d6">2547.4</data>
+  <data key="d7">2547.4</data>
+  <data key="d8">35.0</data>
+  <data key="d9">262.02</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_JP_NAGAR" target="N_SILK_BOARD">
+  <data key="d5">N_JP_NAGAR-N_SILK_BOARD</data>
+  <data key="d6">5551.1</data>
+  <data key="d7">5551.1</data>
+  <data key="d8">43.3</data>
+  <data key="d9">461.52</data>
+  <data key="d10">primary</data>
+  <data key="d11">WH5F+26|WJ8X+F5W</data>
+  <data key="d12">Double Decker Flyover</data>
+</edge>
+<edge source="N_JP_NAGAR" target="N_NLSIU">
+  <data key="d5">N_JP_NAGAR-N_NLSIU</data>
+  <data key="d6">8029.1</data>
+  <data key="d7">8029.1</data>
+  <data key="d8">35.1</data>
+  <data key="d9">823.5</data>
+  <data key="d10">primary</data>
+  <data key="d11">XG48+2W|VHWC+C3</data>
+  <data key="d12">South Outer Ring</data>
+</edge>
+<edge source="N_JP_NAGAR" target="N_YELACHENAHALLI">
+  <data key="d5">N_JP_NAGAR-N_YELACHENAHALLI</data>
+  <data key="d6">1316.8</data>
+  <data key="d7">1316.8</data>
+  <data key="d8">35.1</data>
+  <data key="d9">135.06</data>
+  <data key="d10">primary</data>
+  <data key="d11">XG48+2W|VHWC+C3</data>
+  <data key="d12">South Outer Ring</data>
+</edge>
+<edge source="N_JP_NAGAR" target="N_JAYANAGAR_4TH">
+  <data key="d5">N_JP_NAGAR-N_JAYANAGAR_4TH</data>
+  <data key="d6">2700.3</data>
+  <data key="d7">2700.3</data>
+  <data key="d8">40.0</data>
+  <data key="d9">243.03</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_SILK_BOARD" target="N_JP_NAGAR">
+  <data key="d5">N_SILK_BOARD-N_JP_NAGAR</data>
+  <data key="d6">5551.1</data>
+  <data key="d7">5551.1</data>
+  <data key="d8">43.3</data>
+  <data key="d9">461.52</data>
+  <data key="d10">primary</data>
+  <data key="d11">WH5F+26|WJ8X+F5W</data>
+  <data key="d12">Double Decker Flyover</data>
+</edge>
+<edge source="N_SILK_BOARD" target="N_HSR_LAYOUT">
+  <data key="d5">N_SILK_BOARD-N_HSR_LAYOUT</data>
+  <data key="d6">2680.9</data>
+  <data key="d7">2680.9</data>
+  <data key="d8">43.3</data>
+  <data key="d9">222.89</data>
+  <data key="d10">trunk</data>
+  <data key="d11">WH5F+26|WJ8X+F5W</data>
+  <data key="d12">Double Decker Flyover</data>
+</edge>
+<edge source="N_SILK_BOARD" target="N_TECH_VILLAGE">
+  <data key="d5">N_SILK_BOARD-N_TECH_VILLAGE</data>
+  <data key="d6">7443.0</data>
+  <data key="d7">7443.0</data>
+  <data key="d8">45.7</data>
+  <data key="d9">586.32</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XMW9+G8|WMJR+V4</data>
+  <data key="d12">East Outer Ring (ORR South)</data>
+</edge>
+<edge source="N_SILK_BOARD" target="N_KUDLU_GATE">
+  <data key="d5">N_SILK_BOARD-N_KUDLU_GATE</data>
+  <data key="d6">3500.4</data>
+  <data key="d7">3500.4</data>
+  <data key="d8">44.5</data>
+  <data key="d9">283.18</data>
+  <data key="d10">trunk</data>
+  <data key="d11">VJRQ+2M|RMJJ+F4</data>
+  <data key="d12">Hosur Road</data>
+</edge>
+<edge source="N_SILK_BOARD" target="N_CHRIST_UNIV">
+  <data key="d5">N_SILK_BOARD-N_CHRIST_UNIV</data>
+  <data key="d6">2785.4</data>
+  <data key="d7">2785.4</data>
+  <data key="d8">50.0</data>
+  <data key="d9">200.55</data>
+  <data key="d10">trunk</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_SILK_BOARD" target="N_KORAMANGALA_NEXUS">
+  <data key="d5">N_SILK_BOARD-N_KORAMANGALA_NEXUS</data>
+  <data key="d6">2325.1</data>
+  <data key="d7">2325.1</data>
+  <data key="d8">40.0</data>
+  <data key="d9">209.26</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_HSR_LAYOUT" target="N_SILK_BOARD">
+  <data key="d5">N_HSR_LAYOUT-N_SILK_BOARD</data>
+  <data key="d6">2680.9</data>
+  <data key="d7">2680.9</data>
+  <data key="d8">43.3</data>
+  <data key="d9">222.89</data>
+  <data key="d10">trunk</data>
+  <data key="d11">WH5F+26|WJ8X+F5W</data>
+  <data key="d12">Double Decker Flyover</data>
+</edge>
+<edge source="N_INDIRANAGAR_SV" target="N_DOMLUR">
+  <data key="d5">N_INDIRANAGAR_SV-N_DOMLUR</data>
+  <data key="d6">2854.3</data>
+  <data key="d7">2854.3</data>
+  <data key="d8">37.9</data>
+  <data key="d9">271.12</data>
+  <data key="d10">primary</data>
+  <data key="d11">XJPW+92|WJP4+FF</data>
+  <data key="d12">East Inner Ring</data>
+</edge>
+<edge source="N_INDIRANAGAR_SV" target="N_HALASURU">
+  <data key="d5">N_INDIRANAGAR_SV-N_HALASURU</data>
+  <data key="d6">2547.4</data>
+  <data key="d7">2547.4</data>
+  <data key="d8">35.0</data>
+  <data key="d9">262.02</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_INDIRANAGAR_SV" target="N_BENNIGANAHALLI">
+  <data key="d5">N_INDIRANAGAR_SV-N_BENNIGANAHALLI</data>
+  <data key="d6">2766.9</data>
+  <data key="d7">2766.9</data>
+  <data key="d8">40.0</data>
+  <data key="d9">249.03</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_CHRIST_UNIV" target="N_KORAMANGALA_100FT">
+  <data key="d5">N_CHRIST_UNIV-N_KORAMANGALA_100FT</data>
+  <data key="d6">2052.1</data>
+  <data key="d7">2052.1</data>
+  <data key="d8">37.9</data>
+  <data key="d9">194.92</data>
+  <data key="d10">primary</data>
+  <data key="d11">XJPW+92|WJP4+FF</data>
+  <data key="d12">East Inner Ring</data>
+</edge>
+<edge source="N_CHRIST_UNIV" target="N_DAIRY_CIRCLE">
+  <data key="d5">N_CHRIST_UNIV-N_DAIRY_CIRCLE</data>
+  <data key="d6">701.1</data>
+  <data key="d7">701.1</data>
+  <data key="d8">40.0</data>
+  <data key="d9">63.1</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_CHRIST_UNIV" target="N_SILK_BOARD">
+  <data key="d5">N_CHRIST_UNIV-N_SILK_BOARD</data>
+  <data key="d6">2785.4</data>
+  <data key="d7">2785.4</data>
+  <data key="d8">50.0</data>
+  <data key="d9">200.55</data>
+  <data key="d10">trunk</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_BENNIGANAHALLI" target="N_KR_PURAM">
+  <data key="d5">N_BENNIGANAHALLI-N_KR_PURAM</data>
+  <data key="d6">2939.7</data>
+  <data key="d7">2939.7</data>
+  <data key="d8">45.7</data>
+  <data key="d9">231.57</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XMW9+G8|WMJR+V4</data>
+  <data key="d12">East Outer Ring</data>
+</edge>
+<edge source="N_BENNIGANAHALLI" target="N_INDIRANAGAR_SV">
+  <data key="d5">N_BENNIGANAHALLI-N_INDIRANAGAR_SV</data>
+  <data key="d6">2766.9</data>
+  <data key="d7">2766.9</data>
+  <data key="d8">40.0</data>
+  <data key="d9">249.03</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_TECH_VILLAGE" target="N_MARATHAHALLI">
+  <data key="d5">N_TECH_VILLAGE-N_MARATHAHALLI</data>
+  <data key="d6">2893.7</data>
+  <data key="d7">2893.7</data>
+  <data key="d8">45.7</data>
+  <data key="d9">227.95</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XMW9+G8|WMJR+V4</data>
+  <data key="d12">East Outer Ring</data>
+</edge>
+<edge source="N_TECH_VILLAGE" target="N_SILK_BOARD">
+  <data key="d5">N_TECH_VILLAGE-N_SILK_BOARD</data>
+  <data key="d6">7443.0</data>
+  <data key="d7">7443.0</data>
+  <data key="d8">45.7</data>
+  <data key="d9">586.32</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XMW9+G8|WMJR+V4</data>
+  <data key="d12">East Outer Ring (ORR South)</data>
+</edge>
+<edge source="N_KUDLU_GATE" target="N_SILK_BOARD">
+  <data key="d5">N_KUDLU_GATE-N_SILK_BOARD</data>
+  <data key="d6">3500.4</data>
+  <data key="d7">3500.4</data>
+  <data key="d8">44.5</data>
+  <data key="d9">283.18</data>
+  <data key="d10">trunk</data>
+  <data key="d11">VJRQ+2M|RMJJ+F4</data>
+  <data key="d12">Hosur Road</data>
+</edge>
+<edge source="N_KUDLU_GATE" target="N_BIOCON">
+  <data key="d5">N_KUDLU_GATE-N_BIOCON</data>
+  <data key="d6">7921.2</data>
+  <data key="d7">7921.2</data>
+  <data key="d8">44.5</data>
+  <data key="d9">640.82</data>
+  <data key="d10">trunk</data>
+  <data key="d11">VJRQ+2M|RMJJ+F4</data>
+  <data key="d12">Hosur Road</data>
+</edge>
+<edge source="N_BIOCON" target="N_KUDLU_GATE">
+  <data key="d5">N_BIOCON-N_KUDLU_GATE</data>
+  <data key="d6">7921.2</data>
+  <data key="d7">7921.2</data>
+  <data key="d8">44.5</data>
+  <data key="d9">640.82</data>
+  <data key="d10">trunk</data>
+  <data key="d11">VJRQ+2M|RMJJ+F4</data>
+  <data key="d12">Hosur Road</data>
+</edge>
+<edge source="N_RR_NAGAR" target="N_TOWN_HALL">
+  <data key="d5">N_RR_NAGAR-N_TOWN_HALL</data>
+  <data key="d6">8675.3</data>
+  <data key="d7">8675.3</data>
+  <data key="d8">37.1</data>
+  <data key="d9">841.81</data>
+  <data key="d10">primary</data>
+  <data key="d11">WGG8+G5|XH7P+G6</data>
+  <data key="d12">Mysore Road</data>
+</edge>
+<edge source="N_JP_PARK" target="N_MALLESWARAM">
+  <data key="d5">N_JP_PARK-N_MALLESWARAM</data>
+  <data key="d6">4054.6</data>
+  <data key="d7">4054.6</data>
+  <data key="d8">35.3</data>
+  <data key="d9">413.5</data>
+  <data key="d10">primary</data>
+  <data key="d11">2HM2+P8|XJV5+RG</data>
+  <data key="d12">North Inner Ring</data>
+</edge>
+<edge source="N_COLES_PARK" target="N_MALLESWARAM">
+  <data key="d5">N_COLES_PARK-N_MALLESWARAM</data>
+  <data key="d6">4306.3</data>
+  <data key="d7">4306.3</data>
+  <data key="d8">35.3</data>
+  <data key="d9">439.17</data>
+  <data key="d10">primary</data>
+  <data key="d11">2HM2+P8|XJV5+RG</data>
+  <data key="d12">North Inner Ring</data>
+</edge>
+<edge source="N_COLES_PARK" target="N_CUNNINGHAM">
+  <data key="d5">N_COLES_PARK-N_CUNNINGHAM</data>
+  <data key="d6">1569.1</data>
+  <data key="d7">1569.1</data>
+  <data key="d8">30.0</data>
+  <data key="d9">188.29</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_COLES_PARK" target="N_SHIVAJINAGAR">
+  <data key="d5">N_COLES_PARK-N_SHIVAJINAGAR</data>
+  <data key="d6">1144.3</data>
+  <data key="d7">1144.3</data>
+  <data key="d8">30.0</data>
+  <data key="d9">137.31</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_COLES_PARK" target="N_HEBBAL">
+  <data key="d5">N_COLES_PARK-N_HEBBAL</data>
+  <data key="d6">5649.2</data>
+  <data key="d7">5649.2</data>
+  <data key="d8">45.0</data>
+  <data key="d9">451.93</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_HEBBAL" target="N_MG_ROAD">
+  <data key="d5">N_HEBBAL-N_MG_ROAD</data>
+  <data key="d6">7662.2</data>
+  <data key="d7">7662.2</data>
+  <data key="d8">57.3</data>
+  <data key="d9">481.4</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XJG4+7J|5PX4+HQ</data>
+  <data key="d12">Airport Expy</data>
+</edge>
+<edge source="N_HEBBAL" target="N_AIRPORT_KIAL">
+  <data key="d5">N_HEBBAL-N_AIRPORT_KIAL</data>
+  <data key="d6">21028.2</data>
+  <data key="d7">21028.2</data>
+  <data key="d8">57.3</data>
+  <data key="d9">1321.14</data>
+  <data key="d10">motorway</data>
+  <data key="d11">XJG4+7J|5PX4+HQ</data>
+  <data key="d12">Airport Expy</data>
+</edge>
+<edge source="N_HEBBAL" target="N_SMVT">
+  <data key="d5">N_HEBBAL-N_SMVT</data>
+  <data key="d6">6945.1</data>
+  <data key="d7">6945.1</data>
+  <data key="d8">38.8</data>
+  <data key="d9">644.39</data>
+  <data key="d10">primary</data>
+  <data key="d11">2HVW+G8|XJXR+WG</data>
+  <data key="d12">North Outer Ring</data>
+</edge>
+<edge source="N_HEBBAL" target="N_COLES_PARK">
+  <data key="d5">N_HEBBAL-N_COLES_PARK</data>
+  <data key="d6">5649.2</data>
+  <data key="d7">5649.2</data>
+  <data key="d8">45.0</data>
+  <data key="d9">451.93</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_HEBBAL" target="N_MALLESWARAM">
+  <data key="d5">N_HEBBAL-N_MALLESWARAM</data>
+  <data key="d6">5328.6</data>
+  <data key="d7">5328.6</data>
+  <data key="d8">45.0</data>
+  <data key="d9">426.29</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_SMVT" target="N_HEBBAL">
+  <data key="d5">N_SMVT-N_HEBBAL</data>
+  <data key="d6">6945.1</data>
+  <data key="d7">6945.1</data>
+  <data key="d8">38.8</data>
+  <data key="d9">644.39</data>
+  <data key="d10">primary</data>
+  <data key="d11">2HVW+G8|XJXR+WG</data>
+  <data key="d12">North Outer Ring</data>
+</edge>
+<edge source="N_BROOKFIELD" target="N_MARATHAHALLI">
+  <data key="d5">N_BROOKFIELD-N_MARATHAHALLI</data>
+  <data key="d6">2055.4</data>
+  <data key="d7">2055.4</data>
+  <data key="d8">40.7</data>
+  <data key="d9">181.81</data>
+  <data key="d10">primary</data>
+  <data key="d11">XPC7+72|XM33+J3</data>
+  <data key="d12">Old Airport Road</data>
+</edge>
+<edge source="N_WIND_TUNNEL" target="N_MARATHAHALLI">
+  <data key="d5">N_WIND_TUNNEL-N_MARATHAHALLI</data>
+  <data key="d6">5249.1</data>
+  <data key="d7">5249.1</data>
+  <data key="d8">40.7</data>
+  <data key="d9">464.29</data>
+  <data key="d10">primary</data>
+  <data key="d11">XPC7+72|XM33+J3</data>
+  <data key="d12">Old Airport Road</data>
+</edge>
+<edge source="N_WIND_TUNNEL" target="N_DOMLUR">
+  <data key="d5">N_WIND_TUNNEL-N_DOMLUR</data>
+  <data key="d6">1700.1</data>
+  <data key="d7">1700.1</data>
+  <data key="d8">40.7</data>
+  <data key="d9">150.37</data>
+  <data key="d10">primary</data>
+  <data key="d11">XPC7+72|XM33+J3</data>
+  <data key="d12">Old Airport Road</data>
+</edge>
+<edge source="N_KARMELARAM" target="N_ST_FRANCIS">
+  <data key="d5">N_KARMELARAM-N_ST_FRANCIS</data>
+  <data key="d6">8508.5</data>
+  <data key="d7">8508.5</data>
+  <data key="d8">35.6</data>
+  <data key="d9">860.41</data>
+  <data key="d10">primary</data>
+  <data key="d11">WP44+W8|WJFH+XQ</data>
+  <data key="d12">Sarjapur Road</data>
+</edge>
+<edge source="N_ST_FRANCIS" target="N_KARMELARAM">
+  <data key="d5">N_ST_FRANCIS-N_KARMELARAM</data>
+  <data key="d6">8508.5</data>
+  <data key="d7">8508.5</data>
+  <data key="d8">35.6</data>
+  <data key="d9">860.41</data>
+  <data key="d10">primary</data>
+  <data key="d11">WP44+W8|WJFH+XQ</data>
+  <data key="d12">Sarjapur Road</data>
+</edge>
+<edge source="N_ST_FRANCIS" target="N_KORAMANGALA_100FT">
+  <data key="d5">N_ST_FRANCIS-N_KORAMANGALA_100FT</data>
+  <data key="d6">1118.6</data>
+  <data key="d7">1118.6</data>
+  <data key="d8">35.6</data>
+  <data key="d9">113.12</data>
+  <data key="d10">primary</data>
+  <data key="d11">WP44+W8|WJFH+XQ</data>
+  <data key="d12">Sarjapur Road</data>
+</edge>
+<edge source="N_NLSIU" target="N_JP_NAGAR">
+  <data key="d5">N_NLSIU-N_JP_NAGAR</data>
+  <data key="d6">8029.1</data>
+  <data key="d7">8029.1</data>
+  <data key="d8">35.1</data>
+  <data key="d9">823.5</data>
+  <data key="d10">primary</data>
+  <data key="d11">XG48+2W|VHWC+C3</data>
+  <data key="d12">South Outer Ring</data>
+</edge>
+<edge source="N_YELACHENAHALLI" target="N_JP_NAGAR">
+  <data key="d5">N_YELACHENAHALLI-N_JP_NAGAR</data>
+  <data key="d6">1316.8</data>
+  <data key="d7">1316.8</data>
+  <data key="d8">35.1</data>
+  <data key="d9">135.06</data>
+  <data key="d10">primary</data>
+  <data key="d11">XG48+2W|VHWC+C3</data>
+  <data key="d12">South Outer Ring</data>
+</edge>
+<edge source="N_DOMLUR" target="N_INDIRANAGAR_SV">
+  <data key="d5">N_DOMLUR-N_INDIRANAGAR_SV</data>
+  <data key="d6">2854.3</data>
+  <data key="d7">2854.3</data>
+  <data key="d8">37.9</data>
+  <data key="d9">271.12</data>
+  <data key="d10">primary</data>
+  <data key="d11">XJPW+92|WJP4+FF</data>
+  <data key="d12">East Inner Ring</data>
+</edge>
+<edge source="N_DOMLUR" target="N_KORAMANGALA_100FT">
+  <data key="d5">N_DOMLUR-N_KORAMANGALA_100FT</data>
+  <data key="d6">3349.3</data>
+  <data key="d7">3349.3</data>
+  <data key="d8">37.9</data>
+  <data key="d9">318.14</data>
+  <data key="d10">primary</data>
+  <data key="d11">XJPW+92|WJP4+FF</data>
+  <data key="d12">East Inner Ring</data>
+</edge>
+<edge source="N_DOMLUR" target="N_WIND_TUNNEL">
+  <data key="d5">N_DOMLUR-N_WIND_TUNNEL</data>
+  <data key="d6">1700.1</data>
+  <data key="d7">1700.1</data>
+  <data key="d8">40.7</data>
+  <data key="d9">150.37</data>
+  <data key="d10">primary</data>
+  <data key="d11">XPC7+72|XM33+J3</data>
+  <data key="d12">Old Airport Road</data>
+</edge>
+<edge source="N_DOMLUR" target="N_HALASURU">
+  <data key="d5">N_DOMLUR-N_HALASURU</data>
+  <data key="d6">2266.8</data>
+  <data key="d7">2266.8</data>
+  <data key="d8">40.0</data>
+  <data key="d9">204.01</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_MARATHAHALLI" target="N_KR_PURAM">
+  <data key="d5">N_MARATHAHALLI-N_KR_PURAM</data>
+  <data key="d6">5047.2</data>
+  <data key="d7">5047.2</data>
+  <data key="d8">45.7</data>
+  <data key="d9">397.59</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XMW9+G8|WMJR+V4</data>
+  <data key="d12">East Outer Ring</data>
+</edge>
+<edge source="N_MARATHAHALLI" target="N_TECH_VILLAGE">
+  <data key="d5">N_MARATHAHALLI-N_TECH_VILLAGE</data>
+  <data key="d6">2893.7</data>
+  <data key="d7">2893.7</data>
+  <data key="d8">45.7</data>
+  <data key="d9">227.95</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XMW9+G8|WMJR+V4</data>
+  <data key="d12">East Outer Ring</data>
+</edge>
+<edge source="N_MARATHAHALLI" target="N_BROOKFIELD">
+  <data key="d5">N_MARATHAHALLI-N_BROOKFIELD</data>
+  <data key="d6">2055.4</data>
+  <data key="d7">2055.4</data>
+  <data key="d8">40.7</data>
+  <data key="d9">181.81</data>
+  <data key="d10">primary</data>
+  <data key="d11">XPC7+72|XM33+J3</data>
+  <data key="d12">Old Airport Road</data>
+</edge>
+<edge source="N_MARATHAHALLI" target="N_WIND_TUNNEL">
+  <data key="d5">N_MARATHAHALLI-N_WIND_TUNNEL</data>
+  <data key="d6">5249.1</data>
+  <data key="d7">5249.1</data>
+  <data key="d8">40.7</data>
+  <data key="d9">464.29</data>
+  <data key="d10">primary</data>
+  <data key="d11">XPC7+72|XM33+J3</data>
+  <data key="d12">Old Airport Road</data>
+</edge>
+<edge source="N_SHIVAJINAGAR" target="N_MG_ROAD">
+  <data key="d5">N_SHIVAJINAGAR-N_MG_ROAD</data>
+  <data key="d6">1209.9</data>
+  <data key="d7">1209.9</data>
+  <data key="d8">30.0</data>
+  <data key="d9">145.19</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_SHIVAJINAGAR" target="N_CUNNINGHAM">
+  <data key="d5">N_SHIVAJINAGAR-N_CUNNINGHAM</data>
+  <data key="d6">790.4</data>
+  <data key="d7">790.4</data>
+  <data key="d8">30.0</data>
+  <data key="d9">94.85</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_SHIVAJINAGAR" target="N_COLES_PARK">
+  <data key="d5">N_SHIVAJINAGAR-N_COLES_PARK</data>
+  <data key="d6">1144.3</data>
+  <data key="d7">1144.3</data>
+  <data key="d8">30.0</data>
+  <data key="d9">137.31</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_LALBAGH" target="N_BASAVANAGUDI">
+  <data key="d5">N_LALBAGH-N_BASAVANAGUDI</data>
+  <data key="d6">2046.9</data>
+  <data key="d7">2046.9</data>
+  <data key="d8">31.9</data>
+  <data key="d9">230.99</data>
+  <data key="d10">primary</data>
+  <data key="d11">WHR9+R6|XJGF+6J</data>
+  <data key="d12">Central Diagonal 2</data>
+</edge>
+<edge source="N_LALBAGH" target="N_RICHMOND_CIRCLE">
+  <data key="d5">N_LALBAGH-N_RICHMOND_CIRCLE</data>
+  <data key="d6">2349.8</data>
+  <data key="d7">2349.8</data>
+  <data key="d8">35.0</data>
+  <data key="d9">241.69</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_LALBAGH" target="N_JAYANAGAR_4TH">
+  <data key="d5">N_LALBAGH-N_JAYANAGAR_4TH</data>
+  <data key="d6">2330.4</data>
+  <data key="d7">2330.4</data>
+  <data key="d8">40.0</data>
+  <data key="d9">209.74</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_JAYANAGAR_4TH" target="N_LALBAGH">
+  <data key="d5">N_JAYANAGAR_4TH-N_LALBAGH</data>
+  <data key="d6">2330.4</data>
+  <data key="d7">2330.4</data>
+  <data key="d8">40.0</data>
+  <data key="d9">209.74</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_JAYANAGAR_4TH" target="N_JP_NAGAR">
+  <data key="d5">N_JAYANAGAR_4TH-N_JP_NAGAR</data>
+  <data key="d6">2700.3</data>
+  <data key="d7">2700.3</data>
+  <data key="d8">40.0</data>
+  <data key="d9">243.03</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_JAYANAGAR_4TH" target="N_DAIRY_CIRCLE">
+  <data key="d5">N_JAYANAGAR_4TH-N_DAIRY_CIRCLE</data>
+  <data key="d6">2036.2</data>
+  <data key="d7">2036.2</data>
+  <data key="d8">35.0</data>
+  <data key="d9">209.44</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_DAIRY_CIRCLE" target="N_TOWN_HALL">
+  <data key="d5">N_DAIRY_CIRCLE-N_TOWN_HALL</data>
+  <data key="d6">3265.8</data>
+  <data key="d7">3265.8</data>
+  <data key="d8">37.4</data>
+  <data key="d9">314.35</data>
+  <data key="d10">primary</data>
+  <data key="d11">XHJ7+MG|WJM6+VC</data>
+  <data key="d12">Central Diagonal 1</data>
+</edge>
+<edge source="N_DAIRY_CIRCLE" target="N_KORAMANGALA_NEXUS">
+  <data key="d5">N_DAIRY_CIRCLE-N_KORAMANGALA_NEXUS</data>
+  <data key="d6">1257.7</data>
+  <data key="d7">1257.7</data>
+  <data key="d8">37.4</data>
+  <data key="d9">121.06</data>
+  <data key="d10">primary</data>
+  <data key="d11">XHJ7+MG|WJM6+VC</data>
+  <data key="d12">Central Diagonal 1</data>
+</edge>
+<edge source="N_DAIRY_CIRCLE" target="N_SHOOLAY">
+  <data key="d5">N_DAIRY_CIRCLE-N_SHOOLAY</data>
+  <data key="d6">3554.4</data>
+  <data key="d7">3554.4</data>
+  <data key="d8">40.0</data>
+  <data key="d9">319.89</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_DAIRY_CIRCLE" target="N_JAYANAGAR_4TH">
+  <data key="d5">N_DAIRY_CIRCLE-N_JAYANAGAR_4TH</data>
+  <data key="d6">2036.2</data>
+  <data key="d7">2036.2</data>
+  <data key="d8">35.0</data>
+  <data key="d9">209.44</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_DAIRY_CIRCLE" target="N_CHRIST_UNIV">
+  <data key="d5">N_DAIRY_CIRCLE-N_CHRIST_UNIV</data>
+  <data key="d6">701.1</data>
+  <data key="d7">701.1</data>
+  <data key="d8">40.0</data>
+  <data key="d9">63.1</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_MALLESWARAM" target="N_JP_PARK">
+  <data key="d5">N_MALLESWARAM-N_JP_PARK</data>
+  <data key="d6">4054.6</data>
+  <data key="d7">4054.6</data>
+  <data key="d8">35.3</data>
+  <data key="d9">413.5</data>
+  <data key="d10">primary</data>
+  <data key="d11">2HM2+P8|XJV5+RG</data>
+  <data key="d12">North Inner Ring</data>
+</edge>
+<edge source="N_MALLESWARAM" target="N_COLES_PARK">
+  <data key="d5">N_MALLESWARAM-N_COLES_PARK</data>
+  <data key="d6">4306.3</data>
+  <data key="d7">4306.3</data>
+  <data key="d8">35.3</data>
+  <data key="d9">439.17</data>
+  <data key="d10">primary</data>
+  <data key="d11">2HM2+P8|XJV5+RG</data>
+  <data key="d12">North Inner Ring</data>
+</edge>
+<edge source="N_MALLESWARAM" target="N_MAJESTIC">
+  <data key="d5">N_MALLESWARAM-N_MAJESTIC</data>
+  <data key="d6">2850.1</data>
+  <data key="d7">2850.1</data>
+  <data key="d8">35.0</data>
+  <data key="d9">293.15</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_MALLESWARAM" target="N_HEBBAL">
+  <data key="d5">N_MALLESWARAM-N_HEBBAL</data>
+  <data key="d6">5328.6</data>
+  <data key="d7">5328.6</data>
+  <data key="d8">45.0</data>
+  <data key="d9">426.29</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_KR_PURAM" target="N_BENNIGANAHALLI">
+  <data key="d5">N_KR_PURAM-N_BENNIGANAHALLI</data>
+  <data key="d6">2939.7</data>
+  <data key="d7">2939.7</data>
+  <data key="d8">45.7</data>
+  <data key="d9">231.57</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XMW9+G8|WMJR+V4</data>
+  <data key="d12">East Outer Ring</data>
+</edge>
+<edge source="N_KR_PURAM" target="N_MARATHAHALLI">
+  <data key="d5">N_KR_PURAM-N_MARATHAHALLI</data>
+  <data key="d6">5047.2</data>
+  <data key="d7">5047.2</data>
+  <data key="d8">45.7</data>
+  <data key="d9">397.59</data>
+  <data key="d10">trunk</data>
+  <data key="d11">XMW9+G8|WMJR+V4</data>
+  <data key="d12">East Outer Ring</data>
+</edge>
+<edge source="N_CUNNINGHAM" target="N_SHIVAJINAGAR">
+  <data key="d5">N_CUNNINGHAM-N_SHIVAJINAGAR</data>
+  <data key="d6">790.4</data>
+  <data key="d7">790.4</data>
+  <data key="d8">30.0</data>
+  <data key="d9">94.85</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_CUNNINGHAM" target="N_MAJESTIC">
+  <data key="d5">N_CUNNINGHAM-N_MAJESTIC</data>
+  <data key="d6">2924.4</data>
+  <data key="d7">2924.4</data>
+  <data key="d8">35.0</data>
+  <data key="d9">300.79</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_CUNNINGHAM" target="N_COLES_PARK">
+  <data key="d5">N_CUNNINGHAM-N_COLES_PARK</data>
+  <data key="d6">1569.1</data>
+  <data key="d7">1569.1</data>
+  <data key="d8">30.0</data>
+  <data key="d9">188.29</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_SHOOLAY" target="N_MG_ROAD">
+  <data key="d5">N_SHOOLAY-N_MG_ROAD</data>
+  <data key="d6">760.3</data>
+  <data key="d7">760.3</data>
+  <data key="d8">35.0</data>
+  <data key="d9">78.2</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_SHOOLAY" target="N_DAIRY_CIRCLE">
+  <data key="d5">N_SHOOLAY-N_DAIRY_CIRCLE</data>
+  <data key="d6">3554.4</data>
+  <data key="d7">3554.4</data>
+  <data key="d8">40.0</data>
+  <data key="d9">319.89</data>
+  <data key="d10">primary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_KORAMANGALA_100FT" target="N_DOMLUR">
+  <data key="d5">N_KORAMANGALA_100FT-N_DOMLUR</data>
+  <data key="d6">3349.3</data>
+  <data key="d7">3349.3</data>
+  <data key="d8">37.9</data>
+  <data key="d9">318.14</data>
+  <data key="d10">primary</data>
+  <data key="d11">XJPW+92|WJP4+FF</data>
+  <data key="d12">East Inner Ring</data>
+</edge>
+<edge source="N_KORAMANGALA_100FT" target="N_CHRIST_UNIV">
+  <data key="d5">N_KORAMANGALA_100FT-N_CHRIST_UNIV</data>
+  <data key="d6">2052.1</data>
+  <data key="d7">2052.1</data>
+  <data key="d8">37.9</data>
+  <data key="d9">194.92</data>
+  <data key="d10">primary</data>
+  <data key="d11">XJPW+92|WJP4+FF</data>
+  <data key="d12">East Inner Ring</data>
+</edge>
+<edge source="N_KORAMANGALA_100FT" target="N_ST_FRANCIS">
+  <data key="d5">N_KORAMANGALA_100FT-N_ST_FRANCIS</data>
+  <data key="d6">1118.6</data>
+  <data key="d7">1118.6</data>
+  <data key="d8">35.6</data>
+  <data key="d9">113.12</data>
+  <data key="d10">primary</data>
+  <data key="d11">WP44+W8|WJFH+XQ</data>
+  <data key="d12">Sarjapur Road</data>
+</edge>
+<edge source="N_KORAMANGALA_100FT" target="N_KORAMANGALA_NEXUS">
+  <data key="d5">N_KORAMANGALA_100FT-N_KORAMANGALA_NEXUS</data>
+  <data key="d6">1508.4</data>
+  <data key="d7">1508.4</data>
+  <data key="d8">30.0</data>
+  <data key="d9">181.01</data>
+  <data key="d10">secondary</data>
+  <data key="d11"></data>
+  <data key="d12"></data>
+</edge>
+<edge source="N_AIRPORT_KIAL" target="N_HEBBAL">
+  <data key="d5">N_AIRPORT_KIAL-N_HEBBAL</data>
+  <data key="d6">21028.2</data>
+  <data key="d7">21028.2</data>
+  <data key="d8">57.3</data>
+  <data key="d9">1321.14</data>
+  <data key="d10">motorway</data>
+  <data key="d11">XJG4+7J|5PX4+HQ</data>
+  <data key="d12">Airport Expy</data>
+</edge>
+</graph></graphml>

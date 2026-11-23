@@ -1,0 +1,26 @@
+# LifeRoute Research Configuration
+# AI-Powered Emergency Ambulance Navigation System (IEEE Research Paper)
+# Sri Eshwar College of Engineering (SECE)
+
+city_name: "Bengaluru, Karnataka, India"
+radius_m: 5000
+network_type: "drive"
+random_seed: 42
+
+grid:
+  target_nodes: 500
+  target_directed_edges: 1200
+  cell_length_m: 250.0
+  free_flow_speed_kmh: 40.0
+
+hospitals:
+  count_grid: 3
+  count_bengaluru: 8
+
+model:
+  n_estimators: 150
+  max_depth: 6
+  learning_rate: 0.08
+  subsample: 0.8
+  test_ratio: 0.20
+

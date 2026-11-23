@@ -1,0 +1,146 @@
+{
+  "scenarios": [
+    {
+      "scenario": "Evening Peak: East Outer Ring to Silk Board Interchange",
+      "period": "Evening Peak (18:30)",
+      "origin": "N_BENNIGANAHALLI",
+      "destination": "N_SILK_BOARD",
+      "static_path": [
+        "N_BENNIGANAHALLI",
+        "N_INDIRANAGAR_SV",
+        "N_DOMLUR",
+        "N_KORAMANGALA_100FT",
+        "N_KORAMANGALA_NEXUS",
+        "N_SILK_BOARD"
+      ],
+      "static_distance_km": 12.8,
+      "static_nominal_time_min": 20.48,
+      "static_experienced_time_min": 40.19,
+      "dynamic_path": [
+        "N_BENNIGANAHALLI",
+        "N_INDIRANAGAR_SV",
+        "N_HALASURU",
+        "N_MG_ROAD",
+        "N_SHOOLAY",
+        "N_DAIRY_CIRCLE",
+        "N_CHRIST_UNIV",
+        "N_SILK_BOARD"
+      ],
+      "dynamic_distance_km": 15.01,
+      "dynamic_travel_time_min": 27.99,
+      "time_saved_minutes": 12.2,
+      "improvement_percent": 30.4,
+      "bypassed_congested_corridors": [
+        "XJPW+92|WJP4+FF"
+      ]
+    },
+    {
+      "scenario": "Evening Peak: Brookfield Tech Corridor to Central Hospitals",
+      "period": "Evening Peak (18:45)",
+      "origin": "N_BROOKFIELD",
+      "destination": "N_TOWN_HALL",
+      "static_path": [
+        "N_BROOKFIELD",
+        "N_MARATHAHALLI",
+        "N_WIND_TUNNEL",
+        "N_DOMLUR",
+        "N_HALASURU",
+        "N_MG_ROAD",
+        "N_RICHMOND_CIRCLE",
+        "N_TOWN_HALL"
+      ],
+      "static_distance_km": 15.97,
+      "static_nominal_time_min": 24.33,
+      "static_experienced_time_min": 50.79,
+      "dynamic_path": [
+        "N_BROOKFIELD",
+        "N_MARATHAHALLI",
+        "N_WIND_TUNNEL",
+        "N_DOMLUR",
+        "N_HALASURU",
+        "N_MG_ROAD",
+        "N_RICHMOND_CIRCLE",
+        "N_TOWN_HALL"
+      ],
+      "dynamic_distance_km": 15.97,
+      "dynamic_travel_time_min": 50.79,
+      "time_saved_minutes": 0.0,
+      "improvement_percent": 0.0,
+      "bypassed_congested_corridors": []
+    },
+    {
+      "scenario": "Morning Peak: North Outer Corridor (Hebbal) to Koramangala Hub",
+      "period": "Morning Peak (09:15)",
+      "origin": "N_HEBBAL",
+      "destination": "N_KORAMANGALA_100FT",
+      "static_path": [
+        "N_HEBBAL",
+        "N_MG_ROAD",
+        "N_SHOOLAY",
+        "N_DAIRY_CIRCLE",
+        "N_CHRIST_UNIV",
+        "N_KORAMANGALA_100FT"
+      ],
+      "static_distance_km": 14.73,
+      "static_nominal_time_min": 18.96,
+      "static_experienced_time_min": 28.86,
+      "dynamic_path": [
+        "N_HEBBAL",
+        "N_MG_ROAD",
+        "N_SHOOLAY",
+        "N_DAIRY_CIRCLE",
+        "N_KORAMANGALA_NEXUS",
+        "N_KORAMANGALA_100FT"
+      ],
+      "dynamic_distance_km": 14.74,
+      "dynamic_travel_time_min": 28.05,
+      "time_saved_minutes": 0.81,
+      "improvement_percent": 2.8,
+      "bypassed_congested_corridors": [
+        "XJPW+92|WJP4+FF"
+      ]
+    },
+    {
+      "scenario": "Off-Peak Midnight: Mysore Road to Shivajinagar",
+      "period": "Off-Peak Midnight (02:00)",
+      "origin": "N_RR_NAGAR",
+      "destination": "N_SHIVAJINAGAR",
+      "static_path": [
+        "N_RR_NAGAR",
+        "N_TOWN_HALL",
+        "N_RICHMOND_CIRCLE",
+        "N_MG_ROAD",
+        "N_SHIVAJINAGAR"
+      ],
+      "static_distance_km": 12.69,
+      "static_nominal_time_min": 21.26,
+      "static_experienced_time_min": 21.91,
+      "dynamic_path": [
+        "N_RR_NAGAR",
+        "N_TOWN_HALL",
+        "N_RICHMOND_CIRCLE",
+        "N_MG_ROAD",
+        "N_SHIVAJINAGAR"
+      ],
+      "dynamic_distance_km": 12.69,
+      "dynamic_travel_time_min": 21.91,
+      "time_saved_minutes": 0.0,
+      "improvement_percent": 0.0,
+      "bypassed_congested_corridors": []
+    }
+  ],
+  "hospital_dispatch": {
+    "incident_location": "N_BENNIGANAHALLI",
+    "departure_time": "2026-11-18 18:30:00",
+    "selected_hospital": "Chinmaya Mission Hospital (Indiranagar)",
+    "beds_available": 5,
+    "icu_available": 1,
+    "trauma_center": false,
+    "route_travel_time_min": 5.19,
+    "route_distance_km": 2.77,
+    "route_nodes": [
+      "N_BENNIGANAHALLI",
+      "N_INDIRANAGAR_SV"
+    ]
+  }
+}

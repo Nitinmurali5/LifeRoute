@@ -1,0 +1,94 @@
+{
+  "scenario_metadata": {
+    "source_node": "N_BENNIGANAHALLI",
+    "source_name": "Benniganahalli Interchange (Tin Factory)",
+    "destination_node": "N_KORAMANGALA_100FT",
+    "destination_hospital": "St. John's Medical College Hospital (Koramangala)",
+    "departure_time": "2026-11-18T18:30:00",
+    "injected_jam": {
+      "edges": [
+        [
+          "N_INDIRANAGAR_SV",
+          "N_DOMLUR"
+        ],
+        [
+          "N_DOMLUR",
+          "N_KORAMANGALA_100FT"
+        ]
+      ],
+      "jam_speed_kmh": 4.0,
+      "corridor_id": "XJPW+92|WJP4+FF (East Inner Ring Road)",
+      "bottleneck_length_m": 6203.6
+    },
+    "is_simulation": true,
+    "disclaimer": "Empirical simulation conducted on calibrated Bengaluru corridor graph. Not a real-world dispatch."
+  },
+  "routes": {
+    "shortest_distance": {
+      "path_nodes": [
+        "N_BENNIGANAHALLI",
+        "N_INDIRANAGAR_SV",
+        "N_DOMLUR",
+        "N_KORAMANGALA_100FT"
+      ],
+      "total_distance_km": 8.97,
+      "travel_time_minutes": 98.59,
+      "free_flow_time_minutes": 13.97,
+      "delay_minutes": 84.62,
+      "average_speed_kmh": 5.46,
+      "jam_encountered": true,
+      "name": "Shortest by Distance",
+      "description": "Blindly follows geographically shortest path (ignores traffic/incidents)"
+    },
+    "reactive_current_speed": {
+      "path_nodes": [
+        "N_BENNIGANAHALLI",
+        "N_INDIRANAGAR_SV",
+        "N_HALASURU",
+        "N_RICHMOND_CIRCLE",
+        "N_TOWN_HALL",
+        "N_DAIRY_CIRCLE",
+        "N_CHRIST_UNIV",
+        "N_KORAMANGALA_100FT"
+      ],
+      "total_distance_km": 15.72,
+      "travel_time_minutes": 31.44,
+      "free_flow_time_minutes": 26.06,
+      "delay_minutes": 5.38,
+      "average_speed_kmh": 30.0,
+      "jam_encountered": false,
+      "name": "Fastest by Current Speeds (Reactive)",
+      "description": "Evaluates instantaneous t_0 snapshot; diverts only after encountering slowdown"
+    },
+    "liferoute_proactive": {
+      "path_nodes": [
+        "N_BENNIGANAHALLI",
+        "N_INDIRANAGAR_SV",
+        "N_HALASURU",
+        "N_MG_ROAD",
+        "N_SHOOLAY",
+        "N_DAIRY_CIRCLE",
+        "N_CHRIST_UNIV",
+        "N_KORAMANGALA_100FT"
+      ],
+      "total_distance_km": 14.28,
+      "travel_time_minutes": 28.56,
+      "free_flow_time_minutes": 22.3,
+      "delay_minutes": 6.26,
+      "average_speed_kmh": 30.0,
+      "jam_encountered": false,
+      "name": "LifeRoute AI (Proactive Predicted Speeds)",
+      "description": "Forecasts downstream congestion & dynamically diverts via optimal arterials"
+    }
+  },
+  "time_savings": {
+    "vs_shortest_distance": {
+      "minutes_saved": 70.03,
+      "percent_saved": 71.0
+    },
+    "vs_reactive": {
+      "minutes_saved": 2.88,
+      "percent_saved": 9.2
+    }
+  }
+}

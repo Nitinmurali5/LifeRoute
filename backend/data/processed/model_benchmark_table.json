@@ -1,0 +1,42 @@
+[
+  {
+    "Model": "Last-Value (Persistence)",
+    "Type": "Baseline",
+    "Hardware": "CPU",
+    "MAE": 2.369,
+    "RMSE": 3.2,
+    "MAPE": 10.13,
+    "R2": 0.8871,
+    "Runtime_sec": 0.01
+  },
+  {
+    "Model": "Historical Average (Time-of-Day)",
+    "Type": "Baseline",
+    "Hardware": "CPU",
+    "MAE": 2.048,
+    "RMSE": 2.844,
+    "MAPE": 9.23,
+    "R2": 0.9108,
+    "Runtime_sec": 0.05
+  },
+  {
+    "Model": "XGBoost Regressor",
+    "Type": "Gradient Boosted Trees",
+    "Hardware": "GPU (NVIDIA GeForce RTX 4050 Laptop GPU)",
+    "MAE": 1.307,
+    "RMSE": 1.829,
+    "MAPE": 5.76,
+    "R2": 0.9631,
+    "Runtime_sec": 1.13
+  },
+  {
+    "Model": "Small LSTM (PyTorch)",
+    "Type": "Recurrent Neural Net",
+    "Hardware": "GPU (NVIDIA GeForce RTX 4050 Laptop GPU)",
+    "MAE": 1.407,
+    "RMSE": 1.966,
+    "MAPE": 6.28,
+    "R2": 0.9574,
+    "Runtime_sec": 7.61
+  }
+]

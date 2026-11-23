@@ -1,0 +1,37 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Application Caches & Raw Ingestion
+cache/
+backend/data/cache/
+backend/data/raw/
+datameet_thread.html
+
+# Large raw splits & heavy graphs (> 5 MB)
+backend/data/processed/traffic_hourly_resampled.csv
+backend/data/processed/train_split.csv
+backend/data/processed/test_split.csv
+backend/data/processed/val_split.csv
+backend/data/processed/edges.csv
+backend/data/processed/city.graphml
+backend/data/processed/bengaluru_osm_graph.graphml
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

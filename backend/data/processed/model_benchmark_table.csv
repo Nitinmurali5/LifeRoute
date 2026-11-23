@@ -1,0 +1,5 @@
+Model,Type,Hardware,MAE,RMSE,MAPE,R2,Runtime_sec
+Last-Value (Persistence),Baseline,CPU,2.369,3.2,10.13,0.8871,0.01
+Historical Average (Time-of-Day),Baseline,CPU,2.048,2.844,9.23,0.9108,0.05
+XGBoost Regressor,Gradient Boosted Trees,GPU (NVIDIA GeForce RTX 4050 Laptop GPU),1.307,1.829,5.76,0.9631,1.13
+Small LSTM (PyTorch),Recurrent Neural Net,GPU (NVIDIA GeForce RTX 4050 Laptop GPU),1.407,1.966,6.28,0.9574,7.61

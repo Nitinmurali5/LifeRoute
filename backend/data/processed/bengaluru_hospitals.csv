@@ -1,0 +1,9 @@
+id,name,lat,lon,total_beds,beds_available,icu_available,trauma_center,node_id,snap_distance_m
+HOSP_MANIPAL,Manipal Hospital (Old Airport Road),12.9576,77.6534,600,14,3,True,N_WIND_TUNNEL,396.5
+HOSP_BOWRING,Bowring and Lady Curzon Hospital (Shivajinagar),12.9832,77.6041,450,0,0,True,N_SHIVAJINAGAR,333.4
+HOSP_VICTORIA,Victoria Hospital (K.R. Market / Fort),12.9634,77.5746,750,22,5,True,N_TOWN_HALL,1192.8
+HOSP_ST_MARTHAS,St. Martha's Hospital (Nrupathunga Road),12.9731,77.5898,350,8,2,True,N_TOWN_HALL,1129.8
+HOSP_ST_JOHNS,St. John's Medical College Hospital (Koramangala),12.9312,77.6205,800,18,4,True,N_KORAMANGALA_100FT,578.6
+HOSP_CHINMAYA,Chinmaya Mission Hospital (Indiranagar),12.9774,77.6441,250,5,1,False,N_INDIRANAGAR_SV,951.3
+HOSP_FORTIS,Fortis Hospital (Cunningham Road),12.9877,77.5954,150,2,1,True,N_CUNNINGHAM,73.1
+HOSP_APOLLO,Apollo Hospitals (Jayanagar / Bannerghatta),12.9165,77.5968,250,11,3,True,N_JAYANAGAR_4TH,2088.0
